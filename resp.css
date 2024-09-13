@@ -1,0 +1,167 @@
+@media screen and (max-width: 1440px) {
+    .navbar {
+        gap: 0;
+    }
+
+    .btn-header {
+        display: none;
+        padding: 15px 10px;
+    }
+
+    .navbar-content a{
+        width: 70px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .offers-text {
+        width: 900px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .offers-text {
+        width: 700px;
+    }
+
+    .offers-cards {
+        display: none;
+    }
+
+    .partners {
+        margin-top: 75px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    @keyframes slide-out-left {
+        0% { transform: translateX(0%); }
+        50% {opacity: 0.5; }
+        100% { opacity: 0; transform: translateX(-100%); display: none;}
+    }
+
+    @keyframes slide-in-from-left {
+        0% { transform: translate(-100%); }
+        100% { transform: translateX(0%); }
+    }
+
+    .navbar-content {
+        gap: 50px;
+    }
+
+    .navbar-content a {
+        display: none;
+    }
+
+    .navbar {
+        padding: 10px 25px;
+        gap: 0;
+    }
+
+    .fa-bars {
+        display: flex;
+    }
+
+    .motto {
+        font-size: 26px;
+        padding: 25px 0 0 40px;
+    }
+
+    .btn-motto {
+        font-size: 14px;
+        padding: 12px;
+        width: 225px;
+    }
+
+    .partners-text {
+        font-size: 16px;
+    }
+
+    .btn-motto {
+        margin-top: 50px;
+    }
+
+    .footer-resources {
+        display: none;
+    }
+
+    .footer-info {
+        display: none;
+    }
+
+    .offers-text {
+        width: 350px;
+    }
+
+    .offers-cards {
+        gap: 10px;
+    }
+
+    .partners-title {
+        text-align: center;
+        font-size: 28px;
+    }
+
+    .features-title {
+        font-size: 32px;
+    }
+
+    .features-text {
+        font-size: 18px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+
+    .btn-offers {
+        font-size: 14px;
+    }
+
+    .offer-card1-title, .offer-card3-title {
+        font-size: 22px;
+    }
+
+    .offer-card2-title {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .offers-cards {
+        display: none;
+    }
+
+    .btn-offers {
+        margin-bottom: 40px;
+    }
+
+    .partners {
+       display: none;
+    }
+
+    .navbar-content {
+        gap: 40px;
+    }
+
+    .fa-bars {
+        margin-left: 100px;
+    }
+
+    .fa-xmark {
+        margin-left: 25px;
+    }
+
+    .offers {
+        padding: 25px;
+        background: var(--white);
+    }
+
+    .offers-title {
+        color: var(--secondary);
+    }
+
+    .copyright span {
+        font-size: 12px;
+    }
+}
